@@ -1,4 +1,3 @@
-/* 全体 */
 body {
   font-family: fantasy;
   margin: 0;
@@ -8,7 +7,7 @@ body {
   color: #000000;
 }
 
-/* ヘッダー */
+
 .header {
   position: relative;
   text-align: center;
@@ -40,7 +39,7 @@ body {
   font-size: 1.2rem;
 }
 
-/* ナビゲーション */
+
 .nav ul {
   display: flex;
   justify-content: center;
@@ -58,7 +57,7 @@ body {
   background: #b22222;
 }
 
-/* セクション */
+
 main {
   padding: 20px;
   max-width: 900px;
@@ -74,7 +73,6 @@ h2 {
   margin-bottom: 40px;
 }
 
-/* ツアー紹介 */
 .tour-list {
   display: flex;
   gap: 20px;
@@ -89,10 +87,11 @@ h2 {
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
   text-align: center;
 }
-.tour img {
+.tour-card img {
   width: 100%;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
+  border-radius: 8px;
 }
 .tour h3 {
   margin: 10px 0 5px;
@@ -103,10 +102,10 @@ h2 {
 }
 
 .tour-list {
-  display: flex;           /* 横並びにする */
-  gap: 20px;               /* カードの間の余白 */
-  justify-content: center; /* 中央に配置 */
-  flex-wrap: wrap;         /* 画面が狭いときは折り返し */
+  display: flex;           
+  gap: 20px;               
+  justify-content: center; 
+  flex-wrap: wrap;         
   padding: 20px;
 }
 
@@ -132,7 +131,7 @@ h2 {
 }
 
 
-/* フォーム */
+
 .contact-form {
   max-width: 600px;
   margin: auto;
@@ -250,7 +249,7 @@ h2 {
   color: #b22222;
 }
 
-/* フッター */
+
 .footer {
   background: #201101;
   color: white;
