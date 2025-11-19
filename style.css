@@ -309,6 +309,11 @@ h2 {
   .nav ul {
     font-size: 13px;
   }
+  .logo {
+    width: 100px;
+    top: 10px;
+    left: 10px;
+  }
 
 
 }
