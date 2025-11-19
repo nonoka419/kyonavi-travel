@@ -8,6 +8,10 @@ body {
   color: #000000;
 }
 
+p {
+  font-size: 18px;
+}
+
 /* ヘッダー */
 .header {
   position: relative;
@@ -72,7 +76,7 @@ h1 {
 
 h2 {
   color: #8b0000;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   margin-bottom: 10px;
 }
