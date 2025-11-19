@@ -64,7 +64,7 @@ main {
 
 h2 {
   color: #8b0000;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -103,10 +103,10 @@ h2 {
 }
 
 .tour-list {
-  display: flex;           /* 横並びにする */
-  gap: 20px;               /* カードの間の余白 */
-  justify-content: center; /* 中央に配置 */
-  flex-wrap: wrap;         /* 画面が狭いときは折り返し */
+  display: flex;          
+  gap: 20px;               
+  justify-content: center; 
+  flex-wrap: wrap;         
   padding: 20px;
 }
 
