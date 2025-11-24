@@ -49,13 +49,11 @@ p {
   padding: 20px;
   background: #8b0000;
 }
-
 .nav a {
   color: white;
   text-decoration: none;
   padding: 10px 15px;
 }
-
 .nav a:hover {
   background: #b22222;
 }
@@ -128,10 +126,10 @@ h2 {
 
 
 .tour-list {
-  display: flex;           
-  gap: 20px;               
-  justify-content: center; 
-  flex-wrap: wrap;         
+  display: flex;           /* 横並びにする */
+  gap: 20px;               /* カードの間の余白 */
+  justify-content: center; /* 中央に配置 */
+  flex-wrap: wrap;         /* 画面が狭いときは折り返し */
   padding: 20px;
 }
 
